@@ -47,7 +47,9 @@ Response Body
         {
             "id": "1",
             "name": "Fahtur Rahman Fauzi",
-            "email" : "fahtur@gmail.com"
+            "email" : "fahtur@gmail.com",
+            "created_at": "2022-09-28T20:45:33.000000Z",
+            "updated_at": "2022-09-28T20:45:33.000000Z"
         }
     ]
 }
