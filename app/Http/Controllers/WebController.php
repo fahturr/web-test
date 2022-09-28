@@ -132,4 +132,13 @@ class WebController extends Controller
             ->with('title', 'Menu Products')
             ->with(compact('products'));
     }
+
+    public function getAllUsers()
+    {
+        return response()->json([
+            'status' => true,
+            'message' => 'success fetching users data',
+            'data' => User::all()
+        ], 200);
+    }
 }
