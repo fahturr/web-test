@@ -37,7 +37,7 @@ php artisan serve
 
 ## API Spec
 
-## GET /api/users
+### GET /api/users
 Response Body
 ```json
 {
