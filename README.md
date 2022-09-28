@@ -42,7 +42,7 @@ Response Body
 ```json
 {
     "status": true,
-    "message": "success fetching data users",
+    "message": "success fetching users data",
     "data": [
         {
             "id": "1",
